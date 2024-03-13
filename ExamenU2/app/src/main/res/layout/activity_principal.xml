@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <Button
+        android:id="@+id/btn_tazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tazas"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regalos"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Box"
+        android:textColor="@color/pink"
+        android:textColorHint="@color/pink"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="envolturas, detalles y globos"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peluches"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Globos"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="214dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
