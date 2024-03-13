@@ -10,63 +10,77 @@
         android:id="@+id/btn_tazas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="42dp"
         android:text="Tazas"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_regalos" />
 
     <Button
         android:id="@+id/btn_regalos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
         android:text="Regalos"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="521dp" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_peluches"
+        app:layout_constraintTop_toBottomOf="@+id/btn_peluches" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
         android:text="Happy Box"
         android:textColor="@color/pink"
         android:textColorHint="@color/pink"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
         android:text="envolturas, detalles y globos"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="155dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btn_peluches"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="245dp"
         android:text="Peluches"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_globos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="34dp"
         android:text="Globos"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="322dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_peluches"
+        app:layout_constraintEnd_toEndOf="@+id/btn_peluches" />
 
     <Button
         android:id="@+id/btn_detalles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
         android:text="Detalles"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="214dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
